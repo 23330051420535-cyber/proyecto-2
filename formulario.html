@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario - Café betillo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Café betillo </h1>
+  <nav>
+  <ul>
+  <li><a href="index.html">Inicio</a></li>
+  <li><a href="formulario.html">Formulario</a></li>
+  <li><a href="acerca.html">Acerca de</a></li>
+  </ul>
+  </nav>
+  </header>
+
+  <main>
+    <h2> <center>Formulario de Opiniones</center></h2>
+    <form>
+      <label>Nombre:</label>
+      <input type="text" name="nombre" placeholder="Escribe tu nombre"><br><br>
+
+      <label>Correo electrónico:</label>
+      <input type="email" name="correo" placeholder="correo@ejemplo.com"><br><br>
+
+      <p>¿Qué te pareció nuestro café?</p>
+      <input type="radio" name="opinion" value="excelente"> Excelente
+      <input type="radio" name="opinion" value="bueno"> Bueno
+      <input type="radio" name="opinion" value="regular"> Regular
+      <input type="radio" name="opinion" value="malo"> Malo
+      <br><br>
+
+      <p>¿Qué productos te gustaría ver en el menú?</p>
+      <input type="checkbox" name="producto" value="frappes"> Frappés
+      <input type="checkbox" name="producto" value="postres"> Postres
+      <input type="checkbox" name="producto" value="bebidas_frias"> Bebidas frías
+      <br><br>
+
+      <label>¿Con qué frecuencia nos visitas?</label>
+      <select name="frecuencia">
+        <option value="diario">Diario</option>
+        <option value="semanal">Semanal</option>
+        <option value="mensual">Mensual</option>
+      </select>
+      <br><br>
+
+      <label>Comentarios:</label><br>
+      <textarea name="comentarios" rows="4" cols="40" placeholder="Deja tu opinión aquí..."></textarea>
+      <br><br>
+
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpiar">
+    </form>
+  </main>
+
+  <footer>
+    <p> 2025 Café betillo | Diseñado por Alberto Cerón</p>
+  </footer>
+</body>
+</html>
